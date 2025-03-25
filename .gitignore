@@ -1,2 +1,5 @@
-pkg.tar.zst
-src/*
+pkg/
+src/
+QMidi/
+*.zst
+

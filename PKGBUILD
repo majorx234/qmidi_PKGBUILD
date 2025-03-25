@@ -7,8 +7,8 @@ url="https://github.com/OXI-Instruments/QMidi"
 license=("GPL3")
 depends=("rtmidi")
 makedepends=("rtmidi" "cmake" "make" "gcc")
-#source=("https://github.com/OXI-Instruments/QMidi")
-#sha256sums=("SKIP")
+source=("git+https://github.com/majorx234/QMidi")
+sha256sums=("SKIP")
 
 build() {
   mkdir -p ${srcdir}/build
